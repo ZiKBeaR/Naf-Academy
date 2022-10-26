@@ -1,0 +1,40 @@
+.head-backg {
+  height: 2158px;
+  background: #0D0D0D;
+}
+
+.NavBar {
+  display: flex;
+  align-items: center;
+  padding: 2% 3%;
+}
+
+.Naf-logo{
+  background-image: url(./assets/Naf-logo.png);
+  background-repeat: no-repeat;
+  height: 48px;
+  width: 129px;
+  flex: 1;
+}
+
+.navbar-text {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.navbar-text div {
+  color: white;
+  margin: 1%;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.text-center-line {
+  height: 35px;
+  width: 3px;
+  background-color: white;
+}
