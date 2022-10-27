@@ -33,6 +33,11 @@
   line-height: 22px;
 }
 
+.navbar-text div:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .text-center-line {
   height: 35px;
   width: 3px;
