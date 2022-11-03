@@ -1,0 +1,101 @@
+.aktual-kurslar {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 5%;
+margin-bottom: 2%;
+text-transform: uppercase;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+}
+
+.aktual-kurslar-left-right-displey{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.aktual-kurslar-left {
+flex: 1;
+padding-left: 10%;
+}
+
+.aktual-kurslar-left-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btns {
+width: 192px;
+height: 60px;
+background: #0D0D0D;
+color: white;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 136.5%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.btns:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  border: 2px solid #FEAB38;
+}
+
+.Marketing {
+  background: #FEAB38;
+}
+
+.aktual-kurslar-left-texts{
+font-weight: 500;
+font-size: 18px;
+line-height: 136.5%;
+color: #0D0D0D;
+}
+
+.kurs-name {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 136.5%;
+  margin: 3% 0;
+}
+
+.yellow-black-text {
+  display: flex;
+  margin-bottom: 2%;
+  font-weight: 600;
+}
+
+.aktual-kurslar-left-text-yellow {
+  color: #FEAB38;
+  margin-left: 8px;
+}
+
+.aktual-kurslar-left-bold-text {
+  font-weight: 600;
+  margin-top: 2%;
+}
+
+
+/* -------------------------------right------------------- */
+
+.aktual-kurslar-right{
+  flex: 1;
+  margin-left: 3%;
+  padding-top: 4%;
+}
+
+.video-player{
+  background-image: url(./assets/video-player.png);
+  background-repeat: no-repeat;
+  height: 478px;
+  width: 628px;
+}
+

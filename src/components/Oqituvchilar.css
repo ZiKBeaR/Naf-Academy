@@ -1,0 +1,173 @@
+.oqituvchilar {
+  display: flex;
+  height: 688px;
+  margin-bottom: 5%;
+}
+
+.oqituvchilar-btn {
+  width: 85px;
+  height: 688px;
+  background: #F2F2F2;
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  cursor: pointer;
+}
+
+
+
+.oqituvchilar-btn-left-icon {
+  background-image: url(./assets/left-icon.png);
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 15px;
+}
+
+.oqituvchilar-btn-left-icon:hover {
+  transform: scale(1.5);
+}
+
+.oqituvchilar-left{
+  flex: 0.5;
+}
+
+/* -----------------------center-------------------- */
+
+
+.oqituvchilar-center {
+  flex: 9;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  padding-left: 3%;
+}
+
+.head-text-oqituvchilar-bilan-tanishish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 1px;
+  margin-right: 10px;
+  margin-bottom: 1%;
+}
+
+.yellow-text {
+  color: #feab38;
+}
+
+.tanishuv-window {
+  display: flex;
+}
+
+.tanishuv-left {
+  flex: 1;
+}
+
+.tanishuv-yonalishi {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+}
+
+.black-line {
+  height: 3px;
+  width: 100px;
+  background-color: black;
+}
+
+.yonalish-text-size {
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #feab38;
+margin-left: 1%;
+}
+
+.oqituvchi-name {
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+color: #0D0D0D;
+margin-top: 10px;
+margin-bottom: 3%;
+}
+
+.oqituvchi-about {
+  width: 80%;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  color: #2E2E2E;
+  margin-bottom: 3%;
+}
+
+.oqituvchi-infos-cards {
+  display: flex;
+}
+
+.oqituvchi-info-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 147px;
+  height: 98px;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-right: 3%;
+  margin-top: 3%;
+}
+
+.yellow-number {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  color: #FEAB38;
+}
+
+.card-small-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0D0D0D;
+}
+
+.tanishuv-right{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.oqituvchi-img {
+  background-image: url(./assets/oqituvchi-1.png);
+  background-repeat: no-repeat;
+  height: 535px;
+  width: 371px;
+}
+
+
+/* -----------------right-------------------------- */
+
+.oqituvchilar-right {
+  flex: 0.5;
+}
+
+.oqituvchilar-btn-right-icon {
+  background-image: url(./assets/right-icon.png);
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 15px;
+}
+
+.oqituvchilar-btn-right-icon:hover {
+  transform: scale(1.5);
+}
