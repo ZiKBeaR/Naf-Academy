@@ -1,0 +1,76 @@
+.chegirmalar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.chegirmalar-mavzu {
+  display: flex;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.chegirmalar-text-size {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #555555;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.chegirma-yellow-card {
+  width: 1300px;
+  height: 350px;
+  background: #FEAB38;
+  border-radius: 30px;  
+  margin-top: 3%;
+  display: flex; 
+}
+
+.chegirma-yellow-card-left {
+  display: flex;
+  align-items: flex-end;
+  justify-content: left;
+  flex: 1;
+}
+
+.chegirma-yellow-card-left-img {
+  background-image: url(./assets/chegirma.png);
+  background-repeat: no-repeat;
+  height: 446px;
+  width: 889px;
+  margin-left: -5%;
+}
+
+.chegirma-yellow-card-right {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+.big-text-size{
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  margin-top: 3%;
+}
+
+.chegirma-foizi {
+  font-weight: 700;
+  font-size: 195px;
+  line-height: 241px;
+}
+
+.small-text-size {
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 33px; 
+  margin-bottom: 3%;  
+}

@@ -1,0 +1,103 @@
+.Nima-uchun-naf-academya {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.academya-haqida {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 2%;
+}
+
+.margin-left-text {
+  margin-left: 10px;
+}
+
+.academya-haqidagi-cards {
+  display: grid;
+  grid-template-areas: 'a a a';
+  gap: 4% 2%;
+}
+
+.cards-size {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 59px;
+  gap: 15px;
+  width: 380px;
+  text-align: center;
+}
+
+.card-texts-flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-texts-flex {
+  display: flex;
+}
+
+.cards-size:hover {
+  background: #FDFDFD;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.big-text-black {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #0C0C0C;
+}
+
+.cards-icon {
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+}
+
+.like {
+  background-image: url(./assets/like-icon.png);
+}
+.fire {
+  background-image: url(./assets/fire-icon.png);
+}
+.shit {
+  background-image: url(./assets/shit-icon.png);
+}
+.pc {
+  background-image: url(./assets/pc-icon.png);
+}
+.file {
+  background-image: url(./assets/file-icon.png);
+}
+.paper {
+  background-image: url(./assets/paper-icon.png);
+}
+
+.cards-line {
+  width: 250px;
+  height: 3px;
+  background: #FEAB38;
+}
+
+.royxatdan-otish-btn{
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.text-color-black:hover {
+  color: black;
+  text-decoration: underline;
+}

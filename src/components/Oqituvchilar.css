@@ -60,6 +60,10 @@
   color: #feab38;
 }
 
+.head-text-size {
+  margin-right: 10px;
+}
+
 .tanishuv-window {
   display: flex;
 }
